@@ -1,0 +1,18 @@
+print("~~~~~~~~~~~~~~")
+a = float(input("Numeros de votos no A: "))
+b = float(input("Numeros de votos no B: "))
+c = float(input("Numeros de votos no C: "))
+branco = float(input("Numeros de votos Branco: "))
+nulo = float(input("Numeros de votos Nulos: "))
+
+total = (a+b+c+branco+nulo)
+
+print("~~~~~~~~~~~~~~")
+print("O total de candidatos são: ", total)
+print("~~~~~~~~~~~~~~")
+print("porcentagem do candidato A: ", a*100/total)
+print("porcentagem do candidato B: ", b*100/total)
+print("porcentagem do candidato C: ", c*100/total)
+print("porcentagem do candidato A: ", branco*100/total)
+print("porcentagem do candidato A: ", nulo*100/total)
+print("~~~~~~~~~~~~~~")
