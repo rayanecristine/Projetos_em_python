@@ -1,2 +1,2 @@
-# Projetos_em_python
-Básico ao avançado.
+# 🌸✨ Projetos 🌸✨
+Projetos em python do Básico ao avançado.
